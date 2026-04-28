@@ -1,0 +1,5 @@
+127.0.0.1 - - [28/Apr/2026 23:32:24] "GET /dischargeassist.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 23:32:37] "GET /dischargeassist.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 23:32:52] "GET /dischargeassist.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Apr/2026 23:32:52] code 404, message File not found
+127.0.0.1 - - [28/Apr/2026 23:32:52] "GET /favicon.ico HTTP/1.1" 404 -
