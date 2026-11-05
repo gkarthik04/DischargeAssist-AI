@@ -53,7 +53,7 @@ The `/generate` pipeline follows this sequence:
 The current project is arranged as a flat Python repository rather than a package-based folder structure.
 
 ```text
-GEN-AI2 PROJECT/
+DischargeAssist-AI/
 |-- main.py
 |-- models.py
 |-- preprocessor.py
@@ -71,11 +71,10 @@ GEN-AI2 PROJECT/
 |-- demo.py
 |-- dischargeassist.html
 |-- requirements.txt
-|-- dischargeassist.db
 |-- README.md
-|-- *.log / *.err.log
-|-- __pycache__/
-`-- .venv/
+`-- docs/
+    |-- report.pdf
+    `-- slides.pdf
 ```
 
 ## File-By-File Guide
@@ -371,3 +370,11 @@ If you continue evolving the repo, a good next step would be to reorganize it in
 - `logs/` for runtime logs
 
 That is not required for the project to work today, but it would make the codebase easier to maintain as it grows.
+
+
+## Documentation
+
+- [Project report](docs/report.pdf)
+- [Presentation slides](docs/slides.pdf)
+
+`dischargeassist.db` is created automatically on first run and is not committed.
